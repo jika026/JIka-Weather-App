@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Jika Weather app</h1>
+      <form>
+        <label for="city">Enter your desired location</label>
+        <input type="text" name="city" />
+      </form>
+      <div class="card no-display">
+        <img src="https://via.placeholder.com/400x300" class="time" />
+        <div class="icon">
+          <!-- icon -->
+          <img src="" alt="" />
+        </div>
+        <div class="detail">
+          <p class="city-name">City Name</p>
+          <p class="weather-condition">Weather Condititon</p>
+          <div class="temp"></div>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
